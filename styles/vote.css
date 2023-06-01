@@ -1,0 +1,27 @@
+.vote-options button {
+    border: none;
+    font-family: Vazir;
+    padding: 7px 14px;
+    border-radius: var(--theme-radius);
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+    background-color: var(--blue-one);
+    color: var(--blue-four);
+    margin-bottom: 10px;
+}
+
+.vote-options button:hover {
+    background-color: var(--blue-two);
+}
+
+.vote-options button:active {
+    transform: scale(0.98);
+}
+
+.vote-options button.selected {
+    color: #fff;
+    background-color: var(--blue-four);
+}

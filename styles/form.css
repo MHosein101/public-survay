@@ -1,0 +1,87 @@
+form {
+    display: block;
+}
+
+.f-item {
+    margin-bottom: 12px;
+}
+
+.f-item.split {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-item.split input {
+    flex: 9;
+}
+
+.f-item.split button {
+    display: block;
+    flex: 1;
+    height: 33px;
+    line-break: 0;
+}
+
+.f-item label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+textarea ,
+input[type="text"] ,
+input[type="email"] {
+    border: var(--theme-border) solid var(--blue-two);
+    width: 100%;
+    padding: 4px 6px;
+    font: 18px;
+    color: var(--blue-four);
+    font-family: vazir;
+    border-radius: var(--theme-radius);
+    resize: none;
+} 
+
+input[type="email"] {
+    direction: ltr;
+    text-align: left;
+}
+
+textarea:hover ,
+textarea:focus ,
+input[type="text"]:hover ,
+input[type="email"]:hover ,
+input[type="text"]:focus ,
+input[type="email"]:focus {
+    border-color: var(--blue-three);
+} 
+
+button ,
+input[type="button"] ,
+input[type="submit"] ,
+input[type="reset"] {
+    display: inline-block;
+    margin: 5px 4px;
+    font-family: Vazir;
+    font-size: 20px;
+    padding: 4px 14px;
+    border: none;
+    border-radius: var(--theme-radius);
+    color: #fff;
+    background-color: var(--blue-four);
+    cursor: pointer;
+}
+
+button:hover ,
+input[type="button"]:hover ,
+input[type="submit"]:hover ,
+input[type="reset"]:hover {
+    background-color: var(--blue-three);
+}
+
+button:active ,
+input[type="button"]:active ,
+input[type="submit"]:active ,
+input[type="reset"]:active {
+    transform: scale(0.98);
+}
